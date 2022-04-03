@@ -1,0 +1,284 @@
+body{
+    background-image:url("Hd5d6c3b972274cf69d6e8bbfd47d46ffP.jpg");
+    background-size: cover;
+    margin-bottom: -500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logoimg{
+    position: relative;
+    width: 300px;
+    top: 30px;
+    left: 50px;
+    
+}
+#homepage{
+    background-color: #9e2525;
+}
+ul {
+    list-style-type: none;
+    margin:30px 40px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #535557;
+    z-index: 1;
+    width: 95%;
+
+    
+}
+li {
+    display:inline-block;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:#9e2525; 
+}
+
+ul li ul {
+    background-color:#535557;
+    display:none;
+    position:absolute;
+    width:180px;
+    margin-top: auto;
+}
+
+ul li:hover ul{
+    display:block;
+}
+li ul li {
+    display:block; 
+}
+
+
+
+.slider{
+    position: relative;
+    width: 700px;
+    height: 350px;
+    border: 3px solid rgb(88, 85, 85);
+    margin: auto;
+    overflow: hidden;
+    z-index: 0;
+
+}
+.slider-content{
+    position: absolute;
+    width: 500%;
+    left: 0;
+    
+    animation: slide 25s infinite;
+    
+    
+
+}
+.slider-item{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slide { 
+    0% { 
+        transform: translateX(0px);
+
+    }
+    10% { 
+        transform: translateX(-700px);
+
+    }
+    20% { 
+        transform: translateX(-700px);
+
+    }
+    30% { 
+        transform: translateX(-1400px);
+
+    }
+    40% { 
+        transform: translateX(-1400px);
+
+    }
+    50% { 
+        transform: translateX(-2100px);
+
+    }
+    60% { 
+        transform: translateX(-2100px);
+
+    }
+    70% { 
+        transform: translateX(-2800px);
+
+    }
+    80% { 
+        transform: translateX(-2800px);
+
+    }
+    90% { 
+        transform: translateX(0px);
+
+    }
+    
+     
+}
+#link{
+    float: right;
+    left: -65px;
+    position:relative;
+    top: -435px;}
+li img{
+    float: right;
+    margin:-38px 10px;
+}
+h1{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 80px;
+    margin-bottom: -5px;
+    
+}
+hr{
+    width: 400px;
+}
+.hover-overlay-container{
+    width: auto;
+    height: auto;
+    text-align: center;
+  
+}
+.hover-overlay-container img{
+    margin:25px 60px;
+    box-shadow: 5px 5px 30px black;
+    width:19%;
+    height: 20%;
+}
+
+.görsel{
+    position: relative;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+}
+.görsel:hover
+{
+    z-index:2;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.3);
+}
+iframe{
+    margin:auto;
+    width:350px;
+    height: 200px;
+}
+.kurulum-video{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+
+#areaProduct {
+    position: relative;
+    width: 1140px;
+    height: 350px;
+    padding: 5px;
+    margin: auto;
+    clear: both;
+
+}
+  
+.proWrap { 
+    padding: 10px 5px 10px 5px;
+    background: #030303bb;
+    border: 1px solid #ccc;
+    width: 15%;
+    margin-left: 60px;
+    padding: 10px 26px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+  
+.proPrice {
+    border: 1px solid #dddddd;
+    margin-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+  
+.proDetail {
+    display: none;
+    color: white;
+    text-align: center;
+    
+}
+  
+.classShadow {
+    border-color: #999999;
+    -moz-box-shadow: 0px 0px 4px 2px #ccc;
+    -webkit-box-shadow: 0px 0px 4px 2px #ccc;
+    box-shadow: 0px 0px 4px 2px #ccc;
+    border-radius: 4px;
+}
+.proTitle{
+    color: white;
+    font-size: 25px;
+    height: auto;
+}
+.proLink a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.proImg img{
+    width: 100%;   
+}
+.proDetail input{
+    border-radius: 5px;
+    float: right;
+    font-size: 15px;
+}
+.enalt {
+    background: #9e9898;
+    margin: 200px 0px;
+    padding: 60px;
+    position: relative;
+    width: 90%;
+    height: 300px;
+    border: 0px;
+}
+    
+.enalt .hakkımızda {
+    background: #c02d2d;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 4px 50px;
+    position: absolute;
+    text-transform: uppercase;
+    top: -9px;
+}
+    
+.enalt .hakkımızda:after {
+    border-bottom: 4px solid #992424;
+    border-right: 2px solid transparent;
+    display: block;
+    height: 0;
+    position: absolute;
+    right: -3px;
+    top: -1px;
+    width: 0;
+}
+.enalt p{
+    color: white;
+    font-size: 17px;
+}
